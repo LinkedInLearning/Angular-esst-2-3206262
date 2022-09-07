@@ -1,4 +1,4 @@
-# [DE-Kursname hier eintragen]
+# [DE-Angular Grundlagen 2 - Projektsetup - 3206262]
 
 Dies ist das Repository für den **LinkedIn Learning** Kurs `[COURSENAME]`. Den gesamten Kurs finden Sie auf [LinkedIn Learning][lil-course-url].
 
