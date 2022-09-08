@@ -33,8 +33,7 @@
               "node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss",
               "node_modules/@fortawesome/fontawesome-free/scss/solid.scss"
             ],
-            "scripts": [
-            ]
+            "scripts": []
           },
           "configurations": {
             "production": {
@@ -103,6 +102,51 @@
               "src/styles.scss"
             ],
             "scripts": []
+          }
+        },
+        "cypress-run": {
+          "builder": "@cypress/schematic:cypress",
+          "options": {
+            "devServerTarget": "LinkedIn:serve"
+          },
+          "configurations": {
+            "production": {
+              "devServerTarget": "LinkedIn:serve:production"
+            }
+          }
+        },
+        "cypress-open": {
+          "builder": "@cypress/schematic:cypress",
+          "options": {
+            "watch": true,
+            "headless": false
+          }
+        },
+        "ct": {
+          "builder": "@cypress/schematic:cypress",
+          "options": {
+            "devServerTarget": "LinkedIn:serve",
+            "watch": true,
+            "headless": false,
+            "testingType": "component"
+          },
+          "configurations": {
+            "development": {
+              "devServerTarget": "LinkedIn:serve:development"
+            }
+          }
+        },
+        "e2e": {
+          "builder": "@cypress/schematic:cypress",
+          "options": {
+            "devServerTarget": "LinkedIn:serve",
+            "watch": true,
+            "headless": false
+          },
+          "configurations": {
+            "production": {
+              "devServerTarget": "LinkedIn:serve:production"
+            }
           }
         }
       }
