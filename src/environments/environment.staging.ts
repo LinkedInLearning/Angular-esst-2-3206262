@@ -1,7 +1,7 @@
 export const environment = {
   production: true,
-  mode: 'prod',
+  mode: 'staging',
   api: {
-    host: 'netTrek.de'
+    host: 'staging.netTrek.de'
   }
 };
