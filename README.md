@@ -6,10 +6,6 @@ Dies ist das Repository für den **LinkedIn Learning** Kurs `Angular Grundkurs 2
 
 Im zweiten Teil seines umfassenden Videokurses demonstriert Saban Ünlü den professionellen Einsatz von Angular CLI: Die praktische Kommandozeilenerweiterung ist der perfekte Helfer für Angular-Entwickler. Sie unterstützt nicht nur beim Projektsetup, indem es das Grundgerüst einer Anwendung inklusive Veröffentlichungs- und Testprozessen bereitstellt, sondern hilft auch bei der kontinuierlichen Arbeit und legt alle notwendigen Abhängigkeiten für den Entwickler an. Neben vielen Grundlagen befasst sich dieser Kurs auch mit erweiterten Einstellungsmöglichkeiten für SSL, Proxy und AOT, der Einbindung externer Bibliotheken, Internationalisierungsprozessen und vielen mehr.
 
-## Anleitung
-
-Dieses Repository hat Branches für jedes Video im Kurs. Verwenden Sie das Ausklappmenü "Branch: ..." in GitHub um zwischen den unterschiedlichen Branches hin und her zu wechseln bzw. um bei einem spezifischen Status einzusteigen. Oder Sie fügen `/tree/BRANCH_NAME` der URL hinzu um direkt in den gewünschten Branch zu wechseln.
-
 ## Branches
 
 Alle Dateien zum Kurs sind im Branch "Master" zu finden. 
